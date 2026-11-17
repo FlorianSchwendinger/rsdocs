@@ -1,0 +1,16 @@
+---
+title: "Welcome"
+---
+
+This documentation ships inside the **rsdocs** R package and is opened
+from the RStudio *Addins* menu.
+
+## What is in here
+
+- [Getting started](guide/getting-started.qmd) - installing and opening the addins
+
+## How it is served
+
+The site is rendered once at build time and copied to `inst/docs/`. The
+addin starts a small local web server and RStudio Server proxies it to
+your browser.

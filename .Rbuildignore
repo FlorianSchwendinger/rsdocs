@@ -1,0 +1,4 @@
+^docs-src$
+^build-docs\.sh$
+^README\.md$
+^Makefile$

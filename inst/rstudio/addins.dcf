@@ -1,0 +1,4 @@
+Name: Docs
+Description: Opens the documentation website in the RStudio viewer pane.
+Binding: rsdocs
+Interactive: false

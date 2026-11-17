@@ -1,0 +1,21 @@
+---
+title: "Getting started"
+---
+
+## Install
+
+```bash
+R CMD INSTALL rsdocs_0.1.0.tar.gz          # just for you
+sudo R CMD INSTALL rsdocs_0.1.0.tar.gz     # for all users (site library)
+```
+
+Restart the R session afterwards.
+
+## Open the docs
+
+Use **Addins -> Docs**, or from the console:
+
+```r
+rsdocs::rsdocs()       # open in the viewer pane
+rsdocs::rsdocs_stop()  # stop the docs server
+```

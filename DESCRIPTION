@@ -1,0 +1,11 @@
+Package: rsdocs
+Title: Documentation Website as an RStudio Addin
+Version: 0.1.0
+Authors@R: person("Florian", "Schwendinger", email = "florian.schwendinger@quintik-tech.com", role = c("aut", "cre"))
+Description: Ships a pre-rendered Quarto website and opens it from the
+    RStudio (Server) Addins menu, served by a local background web server
+    and proxied by RStudio Server to the user's browser.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: httpuv, rstudioapi, utils
+Config/roxygen2/version: 8.0.0

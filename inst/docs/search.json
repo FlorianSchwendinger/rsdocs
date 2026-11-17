@@ -1,0 +1,56 @@
+[
+  {
+    "objectID": "guide/getting-started.html",
+    "href": "guide/getting-started.html",
+    "title": "Getting started",
+    "section": "",
+    "text": "R CMD INSTALL rsdocs_0.1.0.tar.gz          # just for you\nsudo R CMD INSTALL rsdocs_0.1.0.tar.gz     # for all users (site library)\nRestart the R session afterwards.",
+    "crumbs": [
+      "Guide",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "guide/getting-started.html#install",
+    "href": "guide/getting-started.html#install",
+    "title": "Getting started",
+    "section": "",
+    "text": "R CMD INSTALL rsdocs_0.1.0.tar.gz          # just for you\nsudo R CMD INSTALL rsdocs_0.1.0.tar.gz     # for all users (site library)\nRestart the R session afterwards.",
+    "crumbs": [
+      "Guide",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "guide/getting-started.html#open-the-docs",
+    "href": "guide/getting-started.html#open-the-docs",
+    "title": "Getting started",
+    "section": "2 Open the docs",
+    "text": "2 Open the docs\nUse Addins -&gt; Docs, or from the console:\nrsdocs::rsdocs()       # open in the viewer pane\nrsdocs::rsdocs_stop()  # stop the docs server",
+    "crumbs": [
+      "Guide",
+      "Getting started"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This documentation ships inside the rsdocs R package and is opened from the RStudio Addins menu."
+  },
+  {
+    "objectID": "index.html#what-is-in-here",
+    "href": "index.html#what-is-in-here",
+    "title": "Welcome",
+    "section": "1 What is in here",
+    "text": "1 What is in here\n\nGetting started - installing and opening the addins"
+  },
+  {
+    "objectID": "index.html#how-it-is-served",
+    "href": "index.html#how-it-is-served",
+    "title": "Welcome",
+    "section": "2 How it is served",
+    "text": "2 How it is served\nThe site is rendered once at build time and copied to inst/docs/. The addin starts a small local web server and RStudio Server proxies it to your browser."
+  }
+]
